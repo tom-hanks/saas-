@@ -1,0 +1,220 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@adddome-name: 'adddome';
+@adddome-x: 0px;
+@adddome-y: 0px;
+@adddome-offset-x: 0px;
+@adddome-offset-y: 0px;
+@adddome-width: 15px;
+@adddome-height: 14px;
+@adddome-total-width: 50px;
+@adddome-total-height: 326px;
+@adddome-image: './sprite.png';
+@adddome: 0px 0px 0px 0px 15px 14px 50px 326px './sprite.png' 'adddome';
+@edit-name: 'edit';
+@edit-x: 0px;
+@edit-y: 14px;
+@edit-offset-x: 0px;
+@edit-offset-y: -14px;
+@edit-width: 14px;
+@edit-height: 14px;
+@edit-total-width: 50px;
+@edit-total-height: 326px;
+@edit-image: './sprite.png';
+@edit: 0px 14px 0px -14px 14px 14px 50px 326px './sprite.png' 'edit';
+@jiantou2-name: 'jiantou2';
+@jiantou2-x: 0px;
+@jiantou2-y: 28px;
+@jiantou2-offset-x: 0px;
+@jiantou2-offset-y: -28px;
+@jiantou2-width: 10px;
+@jiantou2-height: 15px;
+@jiantou2-total-width: 50px;
+@jiantou2-total-height: 326px;
+@jiantou2-image: './sprite.png';
+@jiantou2: 0px 28px 0px -28px 10px 15px 50px 326px './sprite.png' 'jiantou2';
+@delete-name: 'delete';
+@delete-x: 0px;
+@delete-y: 43px;
+@delete-offset-x: 0px;
+@delete-offset-y: -43px;
+@delete-width: 13px;
+@delete-height: 16px;
+@delete-total-width: 50px;
+@delete-total-height: 326px;
+@delete-image: './sprite.png';
+@delete: 0px 43px 0px -43px 13px 16px 50px 326px './sprite.png' 'delete';
+@jiantou-name: 'jiantou';
+@jiantou-x: 0px;
+@jiantou-y: 59px;
+@jiantou-offset-x: 0px;
+@jiantou-offset-y: -59px;
+@jiantou-width: 14px;
+@jiantou-height: 23px;
+@jiantou-total-width: 50px;
+@jiantou-total-height: 326px;
+@jiantou-image: './sprite.png';
+@jiantou: 0px 59px 0px -59px 14px 23px 50px 326px './sprite.png' 'jiantou';
+@portraitedit-name: 'portraitedit';
+@portraitedit-x: 0px;
+@portraitedit-y: 82px;
+@portraitedit-offset-x: 0px;
+@portraitedit-offset-y: -82px;
+@portraitedit-width: 23px;
+@portraitedit-height: 23px;
+@portraitedit-total-width: 50px;
+@portraitedit-total-height: 326px;
+@portraitedit-image: './sprite.png';
+@portraitedit: 0px 82px 0px -82px 23px 23px 50px 326px './sprite.png' 'portraitedit';
+@myactive-name: 'myactive';
+@myactive-x: 0px;
+@myactive-y: 105px;
+@myactive-offset-x: 0px;
+@myactive-offset-y: -105px;
+@myactive-width: 24px;
+@myactive-height: 24px;
+@myactive-total-width: 50px;
+@myactive-total-height: 326px;
+@myactive-image: './sprite.png';
+@myactive: 0px 105px 0px -105px 24px 24px 50px 326px './sprite.png' 'myactive';
+@kehu-name: 'kehu';
+@kehu-x: 0px;
+@kehu-y: 129px;
+@kehu-offset-x: 0px;
+@kehu-offset-y: -129px;
+@kehu-width: 24px;
+@kehu-height: 24px;
+@kehu-total-width: 50px;
+@kehu-total-height: 326px;
+@kehu-image: './sprite.png';
+@kehu: 0px 129px 0px -129px 24px 24px 50px 326px './sprite.png' 'kehu';
+@user-name: 'user';
+@user-x: 0px;
+@user-y: 153px;
+@user-offset-x: 0px;
+@user-offset-y: -153px;
+@user-width: 24px;
+@user-height: 24px;
+@user-total-width: 50px;
+@user-total-height: 326px;
+@user-image: './sprite.png';
+@user: 0px 153px 0px -153px 24px 24px 50px 326px './sprite.png' 'user';
+@weibo-name: 'weibo';
+@weibo-x: 0px;
+@weibo-y: 177px;
+@weibo-offset-x: 0px;
+@weibo-offset-y: -177px;
+@weibo-width: 49px;
+@weibo-height: 49px;
+@weibo-total-width: 50px;
+@weibo-total-height: 326px;
+@weibo-image: './sprite.png';
+@weibo: 0px 177px 0px -177px 49px 49px 50px 326px './sprite.png' 'weibo';
+@qq-name: 'qq';
+@qq-x: 0px;
+@qq-y: 226px;
+@qq-offset-x: 0px;
+@qq-offset-y: -226px;
+@qq-width: 50px;
+@qq-height: 50px;
+@qq-total-width: 50px;
+@qq-total-height: 326px;
+@qq-image: './sprite.png';
+@qq: 0px 226px 0px -226px 50px 50px 50px 326px './sprite.png' 'qq';
+@weixin-name: 'weixin';
+@weixin-x: 0px;
+@weixin-y: 276px;
+@weixin-offset-x: 0px;
+@weixin-offset-y: -276px;
+@weixin-width: 50px;
+@weixin-height: 50px;
+@weixin-total-width: 50px;
+@weixin-total-height: 326px;
+@weixin-image: './sprite.png';
+@weixin: 0px 276px 0px -276px 50px 50px 50px 326px './sprite.png' 'weixin';
+@spritesheet-width: 50px;
+@spritesheet-height: 326px;
+@spritesheet-image: './sprite.png';
+@spritesheet-sprites: @adddome @edit @jiantou2 @delete @jiantou @portraitedit @myactive @kehu @user @weibo @qq @weixin;
+@spritesheet: 50px 326px './sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}
